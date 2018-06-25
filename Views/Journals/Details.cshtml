@@ -1,0 +1,24 @@
+﻿@model IEnumerable<BooksDestination.Model.Journals>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Journals Page</title>
+</head>
+<body>
+    <table>
+        @foreach (var journal in Model)
+        {
+        <tr>
+            <td>@journal.JournalId</td>
+            <td>@journal.JName</td>
+            <td>@journal.JSubject</td>
+            <td>
+                <a asp-action="Info" asp-route-id="@journal.JournalId">More</a>
+            </td>
+        </tr>
+        }
+    </table>
+    <a asp-action="Index" asp-controller="Home">Home</a>
+    <a asp-action="Create" asp-controller="Journals">Add Journal</a>
+</body>
+</html>

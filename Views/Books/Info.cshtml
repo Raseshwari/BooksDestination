@@ -1,0 +1,11 @@
+﻿@model BooksDestination.Model.BookRepo
+
+<h1>@Model.Name</h1>
+<div>
+    Id: @Model.BookId
+</div>
+
+<div>
+   Type: @Model.Type
+</div>
+<a asp-action="Details" asp-controller="Books">Books Home</a>

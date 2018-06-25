@@ -1,0 +1,11 @@
+C:\Users\ROSS\Documents\Study\C#\ASPNet_Demo\BooksDestination\BooksDestination\bin\Debug\netcoreapp2.0\BooksDestination.deps.json
+C:\Users\ROSS\Documents\Study\C#\ASPNet_Demo\BooksDestination\BooksDestination\bin\Debug\netcoreapp2.0\BooksDestination.runtimeconfig.json
+C:\Users\ROSS\Documents\Study\C#\ASPNet_Demo\BooksDestination\BooksDestination\bin\Debug\netcoreapp2.0\BooksDestination.runtimeconfig.dev.json
+C:\Users\ROSS\Documents\Study\C#\ASPNet_Demo\BooksDestination\BooksDestination\bin\Debug\netcoreapp2.0\BooksDestination.dll
+C:\Users\ROSS\Documents\Study\C#\ASPNet_Demo\BooksDestination\BooksDestination\bin\Debug\netcoreapp2.0\BooksDestination.pdb
+C:\Users\ROSS\Documents\Study\C#\ASPNet_Demo\BooksDestination\BooksDestination\obj\Debug\netcoreapp2.0\BooksDestination.csprojAssemblyReference.cache
+C:\Users\ROSS\Documents\Study\C#\ASPNet_Demo\BooksDestination\BooksDestination\obj\Debug\netcoreapp2.0\BooksDestination.csproj.CoreCompileInputs.cache
+C:\Users\ROSS\Documents\Study\C#\ASPNet_Demo\BooksDestination\BooksDestination\obj\Debug\netcoreapp2.0\BooksDestination.AssemblyInfoInputs.cache
+C:\Users\ROSS\Documents\Study\C#\ASPNet_Demo\BooksDestination\BooksDestination\obj\Debug\netcoreapp2.0\BooksDestination.AssemblyInfo.cs
+C:\Users\ROSS\Documents\Study\C#\ASPNet_Demo\BooksDestination\BooksDestination\obj\Debug\netcoreapp2.0\BooksDestination.dll
+C:\Users\ROSS\Documents\Study\C#\ASPNet_Demo\BooksDestination\BooksDestination\obj\Debug\netcoreapp2.0\BooksDestination.pdb

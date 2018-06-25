@@ -1,0 +1,21 @@
+﻿@using BooksDestination.Model
+@model BookRepo
+
+
+
+<form method="post">
+    <div>
+        <label asp-for="Name"></label>
+        <input asp-for="Name" />
+        <span asp-validation-for="Name"></span>
+    </div>
+
+    <div>
+        <label asp-for="Type"></label>
+        <select asp-for="Type" asp-items="@Html.GetEnumSelectList<BookType>()"></select>
+        <span asp-validation-for="Type"></span>
+    </div>
+
+    <input type="submit" name="Save" value="Save" />
+
+</form>

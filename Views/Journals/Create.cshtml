@@ -1,0 +1,25 @@
+﻿@using BooksDestination.Model
+@model Journals
+
+<form method="post">
+    <div>
+        <label asp-for="JName"></label>
+        <input asp-for="JName" />
+        <span asp-validation-for="JName"></span>
+    </div>
+
+    <div>
+        <label asp-for="JSubject"></label>
+        <input asp-for="JSubject" />
+        <span asp-validation-for="JSubject"></span>
+    </div>
+
+    <div>
+        <label asp-for="Jtype"></label>
+        <select asp-for="Jtype" asp-items="@Html.GetEnumSelectList<JournalType>()"></select>
+        <span asp-validation-for="Jtype"></span>
+    </div>
+
+    <input type="submit" name="Save" value="Save" />
+
+</form>

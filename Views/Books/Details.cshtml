@@ -1,0 +1,24 @@
+﻿@model BooksDestination.ViewModels.Books.BookDetailsViewModel
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+    <h1>@Model.Abstract</h1>
+    <table>
+        @foreach (var book in Model.Books)
+        {
+            <tr>
+                <td>@book.BookId</td>
+                <td>@book.Name</td>
+                <td>
+                    <a asp-action="Info" asp-route-id="@book.BookId">More</a>
+                </td>
+            </tr>
+        }
+    </table>
+    <a asp-action="Index" asp-controller="Home">Home</a>
+    <a asp-action="Create" asp-controller="Books">Add Book</a>
+</body>
+</html>

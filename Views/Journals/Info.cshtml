@@ -1,0 +1,16 @@
+﻿@model BooksDestination.Model.Journals
+
+
+<h1>@Model.JName</h1>
+
+<div>
+    Id: @Model.JournalId
+</div>
+<div>
+    Subject: @Model.JSubject
+</div>
+
+<div>
+    Type: @Model.Jtype
+</div>
+<a asp-action="Details" asp-controller="Journals">Journal Home</a>

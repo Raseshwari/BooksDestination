@@ -1,0 +1,36 @@
+﻿@model BooksDestination.ViewModels.BooksAndJournal.BooksAndJournalDetailsModel
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    
+</head>
+<body>
+    <h1>Books & Journals</h1>
+    <a asp-action="Index" asp-controller="Home">Home</a>
+    <table>
+        @foreach (var book in Model.Books)
+        {
+            <tr>
+                <td>@book.BookId</td>
+                <td>@book.Name</td>
+            </tr>
+        }
+    </table>
+    <a asp-action="Details" asp-controller="Books">Books Home</a>
+
+    <table>
+        @foreach (var journal in Model.Journals)
+        {
+            <tr>
+                <td>@journal.JournalId</td>
+                <td>@journal.JName</td>
+                <td>@journal.JSubject</td>
+            </tr>
+        }
+    </table>
+    <a asp-action="Details" asp-controller="Journals">Journal Home</a>
+
+</body>
+</html>
+
